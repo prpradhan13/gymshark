@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.women_first_bg_img{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(255, 255, 255, 0)), url('../images/homePage1st.webp');
+    background-position: center;
+}
+
+.women_second_bg_img{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.768),rgba(255, 255, 255, 0)), url('../images/mainPage2nd.webp');
+    background-position: center;
+}
+
+.women_third_bg_img{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.768),rgba(255, 255, 255, 0)), url('../images/women3rdMain.webp');
+    background-position: center;
+}
+
+.women_fourth_bg_img{
+    background-image: url('../images/women4thMain.webp');
+    background-position: center;
+}
+.women_fourth_bg_img .four_women_div{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.women_fourth_bg_img .four_women_div h1{
+    color: #000;
+}
+.women_fourth_bg_img .four_women_div p{
+    color: #5c5c5c;
+}
+
+.women_fifth_bg_img{
+    padding: 0;
+    background-image: url('../images/women5thMain.webp');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.women_fifth_bg_img .fifth_women_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.women_fifth_bg_img .fifth_women_main h1{
+    color: #000;
+}
+.women_fifth_bg_img .fifth_women_main p{
+    color: #5c5c5c;
+}
+
+.women_sixth_bg_img{
+    width: 100%;
+    background-image: url('../images/women6thMain.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Women Article Style */
+.article{
+    padding: 0 6rem;
+}
+
+.article h1{
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+}
+.article h2{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+}
+
+.article p{
+    color: #0000009b;
+}
+
+@media(max-width: 640px){
+    .women_first_bg_img{
+        height: 100%;
+        background-size: cover;
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8),rgba(255, 255, 255, 0)), url('../images/homePage1st.webp');
+    }
+    .women_second_bg_img{
+        height: 100%;
+        background-position: right;
+        background-size: cover;
+    }
+    .women_third_bg_img{
+        height: 100%;
+        /* width: 100vw; */
+        background-position: -91rem;
+        background-size: cover;
+    }
+
+    .women_fourth_bg_img{
+        height: 100%;
+        background-position: -5rem;
+        background-size: cover;
+    }
+    .women_fourth_bg_img .four_women_div h1{
+        color: #ffffff; 
+    }
+    .women_fourth_bg_img .four_women_div{
+        width: 100vw;
+        gap: 5px;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .women_fifth_bg_img{
+        height: 100vh;
+        background-position: left;
+    }
+    .women_fifth_bg_img .fifth_women_main{
+        width: 100vw;
+        justify-content: end;
+        align-items: start;
+    }
+    .women_fifth_bg_img .fifth_women_main p{
+        color: #2f2f2f;
+    }
+
+    .women_sixth_bg_img{
+        height: 100vh;
+    }
+
+    /* Women Article Style */
+    .article{
+        margin-top: -3rem;
+        margin-bottom: 2rem;
+        width: 100vw;
+        padding: 0 1rem;
+    }
+}

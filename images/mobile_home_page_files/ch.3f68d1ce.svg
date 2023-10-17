@@ -1,0 +1,20 @@
+<svg
+    width="103px"
+    height="103px"
+    viewBox="0 0 103 103"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+>
+    <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g fillRule="nonzero">
+            <g>
+                <circle fill="#D80027" cx="51.2" cy="51.2" r="51.2" />
+                <polygon
+                    fill="#F0F0F0"
+                    points="77.913 42.2958 60.1044 42.2958 60.1044 24.487 42.2956 24.487 42.2956 42.2958 24.487 42.2958 24.487 60.1044 42.2956 60.1044 42.2956 77.913 60.1044 77.913 60.1044 60.1044 77.913 60.1044"
+                />
+            </g>
+        </g>
+    </g>
+</svg>

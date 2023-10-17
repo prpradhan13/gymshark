@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robobo', sans-serif;
+}
+
+.login{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left_content p{
+    font-size: 16px;
+}
+
+.left_content h1{
+    font-weight: 800;
+    font-size: 45px;
+    padding: 2rem 0;
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.left_content h5{
+    font-weight: 400;
+    font-size: 12px;
+    color: #bbbcbc;
+}
+.left_content{
+    width: 50%;
+    height: 100vh;
+    background-image: url('../images/loginpage_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    color: white;
+}
+
+
+.right{
+    padding: 10rem;
+    width: 50%;
+}
+
+.right_content{
+    height: 120%;
+}
+.right_content .logo{
+    text-align: center;
+}
+
+.right_content h2{
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.right_content .content{
+    /* font-family: 'Montserrat',Helvetica, Arial, sans-serif; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+
+.right_content .email{
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: #444;
+}
+.right_content .email input{
+    width: 100%;
+    padding: 0.625rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #c9c9c9;
+}
+.right_content .password{
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: #444;
+}
+.right_content .password input{
+    width: 100%;
+    padding: 0.625rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #c9c9c9;
+}
+
+.right_content .form button{
+    margin: 1.6rem 0;
+    width: 100%;
+    padding: 0.813rem 0;
+    border-radius: 3.5rem;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.right_content a{
+    color: black;
+}
+
+@media (max-width: 640px){
+    .left_content{
+        display: none;
+    }
+
+    .login{
+        padding: 2rem 1rem;
+    }
+    .login .right{
+        /* padding: 10rem;
+        width: 50%; */
+        width: 100%;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login .right .right_content .content{
+        width: 100%;
+    }
+    .right_content .form{
+        width: 100vw;
+        padding: 1rem;
+    }
+    .right_content .form h3{
+        font-size: 1rem;
+    }
+}
